@@ -1,0 +1,91 @@
+@font-face {
+    font-family: iranyekan;
+    src: url("font/iranyekanwebregular(fanum).woff2");
+}
+.iranyekan{
+    font-family: iranyekan;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    font-family: "2  Karim";
+}
+#logo{
+    font-weight: bolder;
+    text-shadow: 0 0 5px red;
+    color: #000000;
+    font-size: 20px;
+    font-family: Georgia;
+}
+/* Full height image header */
+#home {
+    background-position: center;
+    background-size: cover;
+    background-image: url("image/background.jpg");
+    min-height: 100%;
+}
+#myNavbar{
+    background-color: #89ccd3;
+}
+
+.w3-button{
+    padding: 16px;
+}
+.w3-right{
+    display: flex;
+}
+.fa-bars{
+    display: flex;
+}
+
+#myNavbar{
+    padding: 16px;
+    display: flex;
+}
+
+header div span{
+    font-family: serif;
+    margin-left: 200px;
+    font-weight: bold;
+}
+#header2{
+    font-family: "2  Karim";
+    font-weight: bold;
+    font-size: 45px;
+    margin-right: 10px;
+}
+header a{
+    margin-right: 100px;
+
+}
+
+/*---catalog---*/
+.catalog{
+    float: right;
+}
+.w3-card img{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#footerr{
+    padding-right: 50px;
+    float: right;
+}
+#iconfooter{
+    padding-right: 270px;
+}
+
+#imgfooter{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
